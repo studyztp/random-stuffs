@@ -118,6 +118,9 @@ looppoint = LooppointJsonLoader(
 board.set_se_looppoint_workload(
     binary=obtain_resource("x86-matrix-multiply-omp"), 
     looppoint=looppoint,
+    # Pass in the path to the checkpoint you want to restore
+    # Each simualtion can only restore one checkpoint
+    # i.e. checkpoint_path=Path("looppoint_checkpoints_folder/cpt.Region1")
     checkpoint=obtain_resource(
         f"x86-matrix-multiply-omp-100-8-looppoint-checkpoint-region-{args.checkpoint_region}"
     ).get_local_path()
@@ -137,9 +140,6 @@ def reset_and_dump():
 
 simulator = Simulator(
     board=board,
-    # Pass in the path to the checkpoint you want to restore
-    # Each simualtion can only restore one checkpoint
-    # i.e. checkpoint_path=Path("looppoint_checkpoints_folder/cpt.Region1")
     on_exit_event={ExitEvent.SIMPOINT_BEGIN: reset_and_dump()},
 )
 
