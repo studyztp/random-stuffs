@@ -1,3 +1,6 @@
+build/X86/gem5.opt --debug-flags=PcCountTracker example-script.py
+
+
 Global frequency set at 1000000000000 ticks per second
 build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (2048 Mbytes)
 build/X86/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
