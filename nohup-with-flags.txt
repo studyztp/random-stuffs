@@ -1,0 +1,312 @@
+Global frequency set at 1000000000000 ticks per second
+build/X86/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (2048 Mbytes)
+build/X86/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+      0: board.processor.cores0.core.probeListener.ptmanager: total 3 PCs in counter
+      0: board.processor.cores0.core.probeListener.ptmanager: all targets: 
+(4221392,603516434)
+(4221392,156028351)
+(4221392,179989993)
+(4221392,250145350)
+(4221392,211076617)
+(4221056,59400187)
+(4221392,407294228)
+(4221056,48111518)
+(4221056,23520614)
+(4206672,1)
+(4221392,376215478)
+(4221392,493422990)
+(4221392,619492892)
+(4221392,352247496)
+(4221392,187978221)
+(4221392,415282447)
+(4221392,219060252)
+(4221392,172001763)
+(4221392,227048490)
+(4221392,580422616)
+(4221392,595528209)
+(4221392,446368834)
+(4221392,124943274)
+(4221392,454352717)
+(4221392,140919731)
+(4221392,431258904)
+(4221392,642586697)
+(4221392,282095199)
+(4221392,290083433)
+(4221056,29162087)
+(4221392,266118749)
+(4221056,17872963)
+(4221392,470332151)
+(4221392,6861604)
+(4221392,634598476)
+(4221392,368227872)
+build/X86/base/remote_gdb.cc:416: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version [DEVELOP-FOR-23.0]
+gem5 compiled Feb 17 2023 10:21:44
+gem5 started Feb 17 2023 10:29:42
+gem5 executing on amarillo, pid 97810
+command line: /home/studyztp/test_ground/looppoint/amarillo/gem5/build/X86/gem5.opt --outdir=with-flags --debug-flags=PcCountTracker /home/studyztp/test_ground/looppoint/script_to_check_slow_down/looppoint_exit_end.py --checkpoint-path=with-flags-checkpoint/
+
+info: Standard input is not a terminal, disabling listeners.
+warn: The `CustomResource` class is deprecated. Please use an `AbstractResource` subclass instead.
+warn: The `CustomResource` class is deprecated. Please use an `AbstractResource` subclass instead.
+warn: The simulate package is still in a beta state. The gem5 project does not guarantee the APIs within this package will remain consistent across upcoming releases.
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 0.  Starting simulation...
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+build/X86/sim/syscall_emul.cc:85: warn: ignoring syscall rt_sigaction(...)
+      (further warnings will be suppressed)
+build/X86/sim/syscall_emul.cc:85: warn: ignoring syscall rt_sigprocmask(...)
+      (further warnings will be suppressed)
+build/X86/sim/syscall_emul.hh:1014: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/studyztp/.cache/gem5/x86-matrix-multiply-omp'
+build/X86/sim/mem_state.cc:443: info: Increasing stack size by one page.
+66202398: board.processor.cores0.core.probeListener.ptmanager: pc:(4206672,1) encountered
+66202398: board.processor.cores0.core.probeListener.ptmanager: There are 35 targets remained
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+Writing checkpoint
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 66202398.  Starting simulation...
+Using 100 iterations
+Using 8 threads
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/power_state.cc:105: warn: PowerState: Already in the requested power state, request ignored
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
+build/X86/sim/syscall_emul.cc:74: warn: ignoring syscall set_robust_list(...)
+14945642730: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,6861604) encountered
+14945642730: board.processor.cores0.core.probeListener.ptmanager: There are 34 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 14945642730.  Starting simulation...
+138540607047: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,124943274) encountered
+138540607047: board.processor.cores0.core.probeListener.ptmanager: There are 33 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 138540607047.  Starting simulation...
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+Writing checkpoint
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 138540607380.  Starting simulation...
+154995619230: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,140919731) encountered
+154995619230: board.processor.cores0.core.probeListener.ptmanager: There are 32 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 154995619230.  Starting simulation...
+163304055810: board.processor.cores0.core.probeListener.ptmanager: pc:(4221056,17872963) encountered
+163304055810: board.processor.cores0.core.probeListener.ptmanager: There are 31 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 163304055810.  Starting simulation...
+171544609341: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,156028351) encountered
+171544609341: board.processor.cores0.core.probeListener.ptmanager: There are 30 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 171544609341.  Starting simulation...
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+Writing checkpoint
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 171544610007.  Starting simulation...
+187996824657: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,172001763) encountered
+187996824657: board.processor.cores0.core.probeListener.ptmanager: There are 29 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 187996824657.  Starting simulation...
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+Writing checkpoint
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 187996824990.  Starting simulation...
+196224329583: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,179989993) encountered
+196224329583: board.processor.cores0.core.probeListener.ptmanager: There are 28 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 196224329583.  Starting simulation...
+204451836174: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,187978221) encountered
+204451836174: board.processor.cores0.core.probeListener.ptmanager: There are 27 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 204451836174.  Starting simulation...
+212764221801: board.processor.cores0.core.probeListener.ptmanager: pc:(4221056,23520614) encountered
+212764221801: board.processor.cores0.core.probeListener.ptmanager: There are 26 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 212764221801.  Starting simulation...
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+Writing checkpoint
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 212764222134.  Starting simulation...
+229229759448: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,211076617) encountered
+229229759448: board.processor.cores0.core.probeListener.ptmanager: There are 25 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 229229759448.  Starting simulation...
+237453048261: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,219060252) encountered
+237453048261: board.processor.cores0.core.probeListener.ptmanager: There are 24 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 237453048261.  Starting simulation...
+245680559181: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,227048490) encountered
+245680559181: board.processor.cores0.core.probeListener.ptmanager: There are 23 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 245680559181.  Starting simulation...
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+Writing checkpoint
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 245680559514.  Starting simulation...
+262218706479: board.processor.cores0.core.probeListener.ptmanager: pc:(4221056,29162087) encountered
+262218706479: board.processor.cores0.core.probeListener.ptmanager: There are 22 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 262218706479.  Starting simulation...
+270457062543: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,250145350) encountered
+270457062543: board.processor.cores0.core.probeListener.ptmanager: There are 21 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 270457062543.  Starting simulation...
+286909266204: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,266118749) encountered
+286909266204: board.processor.cores0.core.probeListener.ptmanager: There are 20 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 286909266204.  Starting simulation...
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+Writing checkpoint
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 286909266204.  Starting simulation...
+303364277055: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,282095199) encountered
+303364277055: board.processor.cores0.core.probeListener.ptmanager: There are 19 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 303364277055.  Starting simulation...
+311591789640: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,290083433) encountered
+311591789640: board.processor.cores0.core.probeListener.ptmanager: There are 18 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 311591789640.  Starting simulation...
+377594190504: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,352247496) encountered
+377594190504: board.processor.cores0.core.probeListener.ptmanager: There are 17 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 377594190504.  Starting simulation...
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+Writing checkpoint
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 377594191170.  Starting simulation...
+394052808744: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,368227872) encountered
+394052808744: board.processor.cores0.core.probeListener.ptmanager: There are 16 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 394052808744.  Starting simulation...
+402279739911: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,376215478) encountered
+402279739911: board.processor.cores0.core.probeListener.ptmanager: There are 15 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 402279739911.  Starting simulation...
+418811659776: board.processor.cores0.core.probeListener.ptmanager: pc:(4221056,48111518) encountered
+418811659776: board.processor.cores0.core.probeListener.ptmanager: There are 14 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 418811659776.  Starting simulation...
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+Writing checkpoint
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 418811660442.  Starting simulation...
+435277931022: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,407294228) encountered
+435277931022: board.processor.cores0.core.probeListener.ptmanager: There are 13 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 435277931022.  Starting simulation...
+443505429621: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,415282447) encountered
+443505429621: board.processor.cores0.core.probeListener.ptmanager: There are 12 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 443505429621.  Starting simulation...
+459960445134: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,431258904) encountered
+459960445134: board.processor.cores0.core.probeListener.ptmanager: There are 11 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 459960445134.  Starting simulation...
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+Writing checkpoint
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 459960445467.  Starting simulation...
+476510637375: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,446368834) encountered
+476510637375: board.processor.cores0.core.probeListener.ptmanager: There are 10 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 476510637375.  Starting simulation...
+484734153294: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,454352717) encountered
+484734153294: board.processor.cores0.core.probeListener.ptmanager: There are 9 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 484734153294.  Starting simulation...
+501191902404: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,470332151) encountered
+501191902404: board.processor.cores0.core.probeListener.ptmanager: There are 8 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 501191902404.  Starting simulation...
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+Writing checkpoint
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 501191902737.  Starting simulation...
+517725891198: board.processor.cores0.core.probeListener.ptmanager: pc:(4221056,59400187) encountered
+517725891198: board.processor.cores0.core.probeListener.ptmanager: There are 7 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 517725891198.  Starting simulation...
+525962872638: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,493422990) encountered
+525962872638: board.processor.cores0.core.probeListener.ptmanager: There are 6 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 525962872638.  Starting simulation...
+616568213601: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,580422616) encountered
+616568213601: board.processor.cores0.core.probeListener.ptmanager: There are 5 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 616568213601.  Starting simulation...
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+Writing checkpoint
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 616568213934.  Starting simulation...
+633102827769: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,595528209) encountered
+633102827769: board.processor.cores0.core.probeListener.ptmanager: There are 4 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 633102827769.  Starting simulation...
+641330331696: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,603516434) encountered
+641330331696: board.processor.cores0.core.probeListener.ptmanager: There are 3 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 641330331696.  Starting simulation...
+657785348541: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,619492892) encountered
+657785348541: board.processor.cores0.core.probeListener.ptmanager: There are 2 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 657785348541.  Starting simulation...
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+build/X86/sim/process.cc:382: warn: Checkpoints for pipes, device drivers and sockets do not work.
+Writing checkpoint
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 657785349207.  Starting simulation...
+674331549111: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,634598476) encountered
+674331549111: board.processor.cores0.core.probeListener.ptmanager: There are 1 targets remained
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 674331549111.  Starting simulation...
+682559042715: board.processor.cores0.core.probeListener.ptmanager: pc:(4221392,642586697) encountered
+682559042715: board.processor.cores0.core.probeListener.ptmanager: There are 0 targets remained
+682559042715: board.processor.cores0.core.probeListener.ptmanager: all targets are encountered.
+build/X86/sim/simulate.cc:195: info: Entering event queue @ 682559042715.  Starting simulation...
