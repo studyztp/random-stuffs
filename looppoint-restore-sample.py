@@ -115,6 +115,16 @@ looppoint = LooppointJsonLoader(
     region_id=args.checkpoint_region,
 )
 
+from gem5.utils.resource import LooppointJsonLoader
+
+looppoint = LooppointJsonLoader(
+    looppoint_file=Path(
+        obtain_resource(
+            "x86-matrix-multiply-omp-100-8-looppoint"
+        ).get_local_path()
+    )
+)
+
 board.set_se_looppoint_workload(
     binary=obtain_resource("x86-matrix-multiply-omp"), 
     looppoint=looppoint,
