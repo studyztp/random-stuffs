@@ -51,7 +51,7 @@ from gem5.components.processors.cpu_types import CPUTypes
 from gem5.isas import ISA
 from gem5.resources.resource import obtain_resource
 from pathlib import Path
-from gem5.utils.resource import LooppointJsonLoader
+from gem5.resources.looppoint import LooppointJsonLoader
 from m5.stats import reset, dump
 requires(isa_required=ISA.X86)
 parser = argparse.ArgumentParser(description="An restore checkpoint script.")
