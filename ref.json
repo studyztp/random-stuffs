@@ -9757,4 +9757,423 @@
       0.0401851
     ]
   }
-}{}
+}{
+  "riscv-leslie3d-ref-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/leslie3d/0/leslie3d_base.riscv",
+    "additional_params": {
+      "stdin": [
+        "leslie3d.in"
+      ],
+      "stdout": [
+        "leslie3d.stdout"
+      ],
+      "stder": [
+        "leslie3d.err"
+      ]
+    }
+  },
+  "riscv-namd-ref-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/namd/0/namd_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--input",
+        "namd.input",
+        "--iterations",
+        "38",
+        "--output",
+        "namd.out"
+      ],
+      "stdout": [
+        "namd.stdout"
+      ],
+      "stder": [
+        "namd.err"
+      ]
+    }
+  },
+  "riscv-bzip2-ref-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/bzip2/0/bzip2_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "input.source",
+        "280"
+      ],
+      "stdout": [
+        "input.source.out"
+      ],
+      "stder": [
+        "input.source.err"
+      ]
+    }
+  },
+  "riscv-bzip2-ref-1": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/bzip2/0/bzip2_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "chicken.jpg",
+        "30"
+      ],
+      "stdout": [
+        "chicken.jpg.out"
+      ],
+      "stder": [
+        "chicken.jpg.err"
+      ]
+    }
+  },
+  "riscv-bzip2-ref-2": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/bzip2/0/bzip2_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "liberty.jpg",
+        "30"
+      ],
+      "stdout": [
+        "liberty.jpg.out"
+      ],
+      "stder": [
+        "liberty.jpg.err"
+      ]
+    }
+  },
+  "riscv-bzip2-ref-3": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/bzip2/0/bzip2_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "input.program",
+        "280"
+      ],
+      "stdout": [
+        "input.program.out"
+      ],
+      "stder": [
+        "input.program.err"
+      ]
+    }
+  },
+  "riscv-bzip2-ref-4": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/bzip2/0/bzip2_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "text.html",
+        "280"
+      ],
+      "stdout": [
+        "text.html.out"
+      ],
+      "stder": [
+        "text.html.err"
+      ]
+    }
+  },
+  "riscv-bzip2-ref-5": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/bzip2/0/bzip2_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "input.combined",
+        "200"
+      ],
+      "stdout": [
+        "input.combined.out"
+      ],
+      "stder": [
+        "input.combined.err"
+      ]
+    }
+  },
+  "riscv-astar-ref-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/astar/0/astar_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "BigLakes2048.cfg"
+      ],
+      "stdout": [
+        "BigLakes2048.out"
+      ],
+      "stder": [
+        "BigLakes2048.err"
+      ]
+    }
+  },
+  "riscv-astar-ref-1": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/astar/0/astar_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "rivers.cfg"
+      ],
+      "stdout": [
+        "rivers.out"
+      ],
+      "stder": [
+        "rivers.err"
+      ]
+    }
+  },
+  "riscv-gobmk-ref-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/gobmk/0/gobmk_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--quiet",
+        "--mode",
+        "gtp"
+      ],
+      "stdin": [
+        "13x13.tst"
+      ],
+      "stdout": [
+        "13x13.out"
+      ],
+      "stder": [
+        "13x13.err"
+      ]
+    }
+  },
+  "riscv-gobmk-ref-1": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/gobmk/0/gobmk_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--quiet",
+        "--mode",
+        "gtp"
+      ],
+      "stdin": [
+        "nngs.tst"
+      ],
+      "stdout": [
+        "nngs.out"
+      ],
+      "stder": [
+        "nngs.err"
+      ]
+    }
+  },
+  "riscv-gobmk-ref-2": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/gobmk/0/gobmk_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--quiet",
+        "--mode",
+        "gtp"
+      ],
+      "stdin": [
+        "score2.tst"
+      ],
+      "stdout": [
+        "score2.out"
+      ],
+      "stder": [
+        "score2.err"
+      ]
+    }
+  },
+  "riscv-gobmk-ref-3": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/gobmk/0/gobmk_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--quiet",
+        "--mode",
+        "gtp"
+      ],
+      "stdin": [
+        "trevorc.tst"
+      ],
+      "stdout": [
+        "trevorc.out"
+      ],
+      "stder": [
+        "trevorc.err"
+      ]
+    }
+  },
+  "riscv-gobmk-ref-4": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/gobmk/0/gobmk_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--quiet",
+        "--mode",
+        "gtp"
+      ],
+      "stdin": [
+        "trevord.tst"
+      ],
+      "stdout": [
+        "trevord.out"
+      ],
+      "stder": [
+        "trevord.err"
+      ]
+    }
+  },
+  "riscv-mcf-ref-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/mcf/0/mcf_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "inp.in"
+      ],
+      "stdout": [
+        "inp.out"
+      ],
+      "stder": [
+        "inp.err"
+      ]
+    }
+  },
+  "riscv-bwaves-ref-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/bwaves/0/bwaves_base.riscv",
+    "additional_params": {
+      "stder": [
+        "bwaves.err"
+      ]
+    }
+  },
+  "riscv-perlbench-ref-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/perlbench/0/perlbench_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "-I./lib",
+        "checkspam.pl",
+        "2500",
+        "5",
+        "25",
+        "11",
+        "150",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "stdout": [
+        "checkspam.2500.5.25.11.150.1.1.1.1.out"
+      ],
+      "stder": [
+        "checkspam.2500.5.25.11.150.1.1.1.1.err"
+      ]
+    }
+  },
+  "riscv-perlbench-ref-1": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/perlbench/0/perlbench_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "-I./lib",
+        "diffmail.pl",
+        "4",
+        "800",
+        "10",
+        "17",
+        "19",
+        "300"
+      ],
+      "stdout": [
+        "diffmail.4.800.10.17.19.300.out"
+      ],
+      "stder": [
+        "diffmail.4.800.10.17.19.300.err"
+      ]
+    }
+  },
+  "riscv-perlbench-ref-2": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/perlbench/0/perlbench_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "-I./lib",
+        "splitmail.pl",
+        "1600",
+        "12",
+        "26",
+        "16",
+        "4500"
+      ],
+      "stdout": [
+        "splitmail.1600.12.26.16.4500.out"
+      ],
+      "stder": [
+        "splitmail.1600.12.26.16.4500.err"
+      ]
+    }
+  },
+  "riscv-omnetpp-ref-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/omnetpp/0/omnetpp_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "omnetpp.ini"
+      ],
+      "stdout": [
+        "omnetpp.log"
+      ],
+      "stder": [
+        "omnetpp.err"
+      ]
+    }
+  },
+  "riscv-lbm-ref-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/lbm/0/lbm_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "3000",
+        "reference.dat",
+        "0",
+        "0",
+        "100_100_130_ldc.of"
+      ],
+      "stdout": [
+        "lbm.out"
+      ],
+      "stder": [
+        "lbm.err"
+      ]
+    }
+  },
+  "riscv-povray-ref-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/povray/0/povray_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "SPEC-benchmark-ref.ini"
+      ],
+      "stdout": [
+        "SPEC-benchmark-ref.stdout"
+      ],
+      "stder": [
+        "SPEC-benchmark-ref.stderr"
+      ]
+    }
+  },
+  "riscv-gromacs-ref-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/ref/gromacs/0/gromacs_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "-silent",
+        "-deffnm",
+        "gromacs",
+        "-nice",
+        "0"
+      ],
+      "stder": [
+        "gromacs.err"
+      ]
+    }
+  }
+}

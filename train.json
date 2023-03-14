@@ -13725,4 +13725,619 @@
       0.0749143
     ]
   }
-}{}
+}{
+  "riscv-perlbench-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/perlbench/0/perlbench_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "-I./lib",
+        "diffmail.pl",
+        "2",
+        "550",
+        "15",
+        "24",
+        "23",
+        "100"
+      ],
+      "stdout": [
+        "diffmail.2.550.15.24.23.100.out"
+      ],
+      "stder": [
+        "diffmail.2.550.15.24.23.100.err"
+      ]
+    }
+  },
+  "riscv-perlbench-train-1": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/perlbench/0/perlbench_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "-I./lib",
+        "perfect.pl",
+        "b",
+        "3"
+      ],
+      "stdout": [
+        "perfect.b.3.out"
+      ],
+      "stder": [
+        "perfect.b.3.err"
+      ]
+    }
+  },
+  "riscv-perlbench-train-2": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/perlbench/0/perlbench_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "-I.",
+        "-I./lib",
+        "scrabbl.pl"
+      ],
+      "stdin": [
+        "scrabbl.in"
+      ],
+      "stdout": [
+        "scrabbl.out"
+      ],
+      "stder": [
+        "scrabbl.err"
+      ]
+    }
+  },
+  "riscv-perlbench-train-3": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/perlbench/0/perlbench_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "-I./lib",
+        "splitmail.pl",
+        "535",
+        "13",
+        "25",
+        "24",
+        "1091"
+      ],
+      "stdout": [
+        "splitmail.535.13.25.24.1091.out"
+      ],
+      "stder": [
+        "splitmail.535.13.25.24.1091.err"
+      ]
+    }
+  },
+  "riscv-perlbench-train-4": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/perlbench/0/perlbench_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "-I.",
+        "-I./lib",
+        "suns.pl"
+      ],
+      "stdout": [
+        "suns.out"
+      ],
+      "stder": [
+        "suns.err"
+      ]
+    }
+  },
+  "riscv-gromacs-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/gromacs/0/gromacs_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "-silent",
+        "-deffnm",
+        "gromacs",
+        "-nice",
+        "0"
+      ],
+      "stder": [
+        "gromacs.err"
+      ]
+    }
+  },
+  "riscv-libquantum-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/libquantum/0/libquantum_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "143",
+        "25"
+      ],
+      "stdout": [
+        "train.out"
+      ],
+      "stder": [
+        "train.err"
+      ]
+    }
+  },
+  "riscv-gobmk-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/gobmk/0/gobmk_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--quiet",
+        "--mode",
+        "gtp"
+      ],
+      "stdin": [
+        "arb.tst"
+      ],
+      "stdout": [
+        "arb.out"
+      ],
+      "stder": [
+        "arb.err"
+      ]
+    }
+  },
+  "riscv-gobmk-train-1": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/gobmk/0/gobmk_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--quiet",
+        "--mode",
+        "gtp"
+      ],
+      "stdin": [
+        "arend.tst"
+      ],
+      "stdout": [
+        "arend.out"
+      ],
+      "stder": [
+        "arend.err"
+      ]
+    }
+  },
+  "riscv-gobmk-train-2": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/gobmk/0/gobmk_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--quiet",
+        "--mode",
+        "gtp"
+      ],
+      "stdin": [
+        "arion.tst"
+      ],
+      "stdout": [
+        "arion.out"
+      ],
+      "stder": [
+        "arion.err"
+      ]
+    }
+  },
+  "riscv-gobmk-train-3": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/gobmk/0/gobmk_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--quiet",
+        "--mode",
+        "gtp"
+      ],
+      "stdin": [
+        "atari_atari.tst"
+      ],
+      "stdout": [
+        "atari_atari.out"
+      ],
+      "stder": [
+        "atari_atari.err"
+      ]
+    }
+  },
+  "riscv-gobmk-train-4": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/gobmk/0/gobmk_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--quiet",
+        "--mode",
+        "gtp"
+      ],
+      "stdin": [
+        "blunder.tst"
+      ],
+      "stdout": [
+        "blunder.out"
+      ],
+      "stder": [
+        "blunder.err"
+      ]
+    }
+  },
+  "riscv-gobmk-train-5": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/gobmk/0/gobmk_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--quiet",
+        "--mode",
+        "gtp"
+      ],
+      "stdin": [
+        "buzco.tst"
+      ],
+      "stdout": [
+        "buzco.out"
+      ],
+      "stder": [
+        "buzco.err"
+      ]
+    }
+  },
+  "riscv-gobmk-train-6": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/gobmk/0/gobmk_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--quiet",
+        "--mode",
+        "gtp"
+      ],
+      "stdin": [
+        "nicklas2.tst"
+      ],
+      "stdout": [
+        "nicklas2.out"
+      ],
+      "stder": [
+        "nicklas2.err"
+      ]
+    }
+  },
+  "riscv-gobmk-train-7": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/gobmk/0/gobmk_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--quiet",
+        "--mode",
+        "gtp"
+      ],
+      "stdin": [
+        "nicklas4.tst"
+      ],
+      "stdout": [
+        "nicklas4.out"
+      ],
+      "stder": [
+        "nicklas4.err"
+      ]
+    }
+  },
+  "riscv-astar-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/astar/0/astar_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "BigLakes1024.cfg"
+      ],
+      "stdout": [
+        "BigLakes1024.out"
+      ],
+      "stder": [
+        "BigLakes1024.err"
+      ]
+    }
+  },
+  "riscv-astar-train-1": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/astar/0/astar_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "rivers1.cfg"
+      ],
+      "stdout": [
+        "rivers1.out"
+      ],
+      "stder": [
+        "rivers1.err"
+      ]
+    }
+  },
+  "riscv-cactusADM-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/cactusADM/0/cactusADM_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "benchADM.par"
+      ],
+      "stdout": [
+        "benchADM.out"
+      ],
+      "stder": [
+        "benchADM.err"
+      ]
+    }
+  },
+  "riscv-mcf-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/mcf/0/mcf_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "inp.in"
+      ],
+      "stdout": [
+        "inp.out"
+      ],
+      "stder": [
+        "inp.err"
+      ]
+    }
+  },
+  "riscv-h264ref-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/h264ref/0/h264ref_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "-d",
+        "foreman_train_encoder_baseline.cfg"
+      ],
+      "stdout": [
+        "foreman_train_baseline_encodelog.out"
+      ],
+      "stder": [
+        "foreman_train_baseline_encodelog.err"
+      ]
+    }
+  },
+  "riscv-zeusmp-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/zeusmp/0/zeusmp_base.riscv",
+    "additional_params": {
+      "stdout": [
+        "zeusmp.stdout"
+      ],
+      "stder": [
+        "zeusmp.err"
+      ]
+    }
+  },
+  "riscv-bzip2-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/bzip2/0/bzip2_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "input.program",
+        "10"
+      ],
+      "stdout": [
+        "input.program.out"
+      ],
+      "stder": [
+        "input.program.err"
+      ]
+    }
+  },
+  "riscv-bzip2-train-1": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/bzip2/0/bzip2_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "byoudoin.jpg",
+        "5"
+      ],
+      "stdout": [
+        "byoudoin.jpg.out"
+      ],
+      "stder": [
+        "byoudoin.jpg.err"
+      ]
+    }
+  },
+  "riscv-bzip2-train-2": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/bzip2/0/bzip2_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "input.combined",
+        "80"
+      ],
+      "stdout": [
+        "input.combined.out"
+      ],
+      "stder": [
+        "input.combined.err"
+      ]
+    }
+  },
+  "riscv-GemsFDTD-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/GemsFDTD/0/GemsFDTD_base.riscv",
+    "additional_params": {
+      "stdout": [
+        "train.log"
+      ],
+      "stder": [
+        "train.err"
+      ]
+    }
+  },
+  "riscv-omnetpp-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/omnetpp/0/omnetpp_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "omnetpp.ini"
+      ],
+      "stdout": [
+        "omnetpp.log"
+      ],
+      "stder": [
+        "omnetpp.err"
+      ]
+    }
+  },
+  "riscv-hmmer-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/hmmer/0/hmmer_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--fixed",
+        "0",
+        "--mean",
+        "425",
+        "--num",
+        "85000",
+        "--sd",
+        "300",
+        "--seed",
+        "0",
+        "leng100.hmm"
+      ],
+      "stdout": [
+        "leng100.out"
+      ],
+      "stder": [
+        "leng100.err"
+      ]
+    }
+  },
+  "riscv-bwaves-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/bwaves/0/bwaves_base.riscv",
+    "additional_params": {
+      "stder": [
+        "bwaves.err"
+      ]
+    }
+  },
+  "riscv-milc-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/milc/0/milc_base.riscv",
+    "additional_params": {
+      "stdin": [
+        "su3imp.in"
+      ],
+      "stdout": [
+        "su3imp.out"
+      ],
+      "stder": [
+        "su3imp.err"
+      ]
+    }
+  },
+  "riscv-leslie3d-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/leslie3d/0/leslie3d_base.riscv",
+    "additional_params": {
+      "stdin": [
+        "leslie3d.in"
+      ],
+      "stdout": [
+        "leslie3d.stdout"
+      ],
+      "stder": [
+        "leslie3d.err"
+      ]
+    }
+  },
+  "riscv-namd-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/namd/0/namd_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "--input",
+        "namd.input",
+        "--iterations",
+        "1",
+        "--output",
+        "namd.out"
+      ],
+      "stdout": [
+        "namd.stdout"
+      ],
+      "stder": [
+        "namd.err"
+      ]
+    }
+  },
+  "riscv-povray-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/povray/0/povray_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "SPEC-benchmark-train.ini"
+      ],
+      "stdout": [
+        "SPEC-benchmark-train.stdout"
+      ],
+      "stder": [
+        "SPEC-benchmark-train.stderr"
+      ]
+    }
+  },
+  "riscv-tonto-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/tonto/0/tonto_base.riscv",
+    "additional_params": {
+      "stdout": [
+        "tonto.out"
+      ],
+      "stder": [
+        "tonto.err"
+      ]
+    }
+  },
+  "riscv-calculix-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/calculix/0/calculix_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "-i",
+        "stairs"
+      ],
+      "stdout": [
+        "stairs.log"
+      ],
+      "stder": [
+        "stairs.err"
+      ]
+    }
+  },
+  "riscv-lbm-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/lbm/0/lbm_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "300",
+        "reference.dat",
+        "0",
+        "1",
+        "100_100_130_cf_b.of"
+      ],
+      "stdout": [
+        "lbm.out"
+      ],
+      "stder": [
+        "lbm.err"
+      ]
+    }
+  },
+  "riscv-sjeng-train-0": {
+    "type": "resource",
+    "binary": "/projects/gem5/riscv-spec2006/checkpoints/data/train/sjeng/0/sjeng_base.riscv",
+    "additional_params": {
+      "arguments": [
+        "train.txt"
+      ],
+      "stdout": [
+        "train.out"
+      ],
+      "stder": [
+        "train.err"
+      ]
+    }
+  }
+}
