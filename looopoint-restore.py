@@ -97,6 +97,18 @@ processor = SimpleProcessor(
     num_cores=9,
 )
 
+from m5.params import PcCountPair
+from m5.objects import PcCountTrackerManager
+
+target_pccountpair = [PcCountPair(int("0x40086,16"),100)]
+
+manager = PcCountTrackerManager()
+manager.targets = target_pccountpair
+for core in processor.get_cores():
+    core.add_pc_tracker_probe(target_pccountpair, manager)
+
+
+
 board = SimpleBoard(
     clk_freq="3GHz",
     processor=processor,
